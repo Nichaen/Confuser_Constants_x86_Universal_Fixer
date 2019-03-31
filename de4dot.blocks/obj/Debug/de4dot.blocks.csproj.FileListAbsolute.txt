@@ -1,0 +1,14 @@
+C:\Users\owner\Documents\GitHub\de4dotFix\Debug\bin\de4dot.blocks.dll
+C:\Users\owner\Documents\GitHub\de4dotFix\Debug\bin\de4dot.blocks.pdb
+C:\Users\owner\Documents\GitHub\de4dotFix\de4dot.blocks\obj\Debug\de4dot.blocks.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\GitHub\de4dotFix\de4dot.blocks\obj\Debug\de4dot.blocks.dll
+C:\Users\owner\Documents\GitHub\de4dotFix\de4dot.blocks\obj\Debug\de4dot.blocks.pdb
+C:\Users\owner\documents\GitHub\de4dotFix\de4dot.blocks\obj\Debug\de4dot.blocks.csproj.CoreCompileInputs.cache
+C:\Users\owner\documents\GitHub\de4dotFix\de4dot.blocks\obj\Debug\de4dot.blocks.csproj.CopyComplete
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\de4dot.blocks\obj\Debug\de4dot.blocks.csprojAssemblyReference.cache
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\de4dot.blocks\obj\Debug\de4dot.blocks.csproj.CoreCompileInputs.cache
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\de4dot.blocks\obj\Debug\de4dot.blocks.dll
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\de4dot.blocks\obj\Debug\de4dot.blocks.pdb
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\Debug\bin\de4dot.blocks.dll
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\Debug\bin\de4dot.blocks.pdb
+C:\Users\DOMINIK-PC\Desktop\Confuser_Constants_x86_Universsal_Fixer_By Nichaen\de4dot.blocks\obj\Debug\de4dot.blocks.csproj.CopyComplete

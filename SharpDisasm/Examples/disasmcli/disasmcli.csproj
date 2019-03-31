@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.0;net45;net4;net35</TargetFrameworks>
+    <OutputPath>..\..\bin\$(Configuration)\</OutputPath>
+    <Copyright>Copyright (c) 2018 Justin Stenning</Copyright>
+    <Company />
+    <Authors>Justin Stenning</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SharpDisasm\SharpDisasm.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="example.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="instructions32.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="instructions64.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

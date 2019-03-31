@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{105CC5AF-B076-48A6-9BD0-7AD8708CAE67}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Confuser_Constants_x86_Universsal_Fixer</RootNamespace>
+    <AssemblyName>Confuser_Constants_x86_Universsal_Fixer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>EasyPredicateKiller.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="de4dot.blocks">
+      <HintPath>..\..\de4dot.blocks\obj\Debug\de4dot.blocks.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>..\..\Debug\bin\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDisasm">
+      <HintPath>..\..\SharpDisasm\bin\Debug\net45\SharpDisasm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86ADD.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86DIV.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86IMUL.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86MOV.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86NEG.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86NOT.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86POP.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86SUB.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\Instructions\X86XOR.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\IX86Operand.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86ImmediateOperand.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86Instruction.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86Method.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86OpCode.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86Register.cs" />
+    <Compile Include="ConfuserDeobfuscator\Engine\Routines\Ex\x86\X86RegisterOperand.cs" />
+    <Compile Include="EasyPredicateKiller\Configuration.cs" />
+    <Compile Include="EasyPredicateKiller\MethodDefExt.cs" />
+    <Compile Include="EasyPredicateKiller\MethodExporter.cs" />
+    <Compile Include="EasyPredicateKiller\MiscExt.cs" />
+    <Compile Include="EasyPredicateKiller\Program.cs" />
+    <Compile Include="EasyPredicateKiller\X86ILTester.cs" />
+    <Compile Include="EasyPredicateKiller\x86\X86MethodToILConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
